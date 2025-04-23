@@ -2,7 +2,7 @@
 
 # Project related configuration options
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "Игра-платформер"
+PROJECT_NAME           = "HookGame"
 PROJECT_NUMBER         = 1.0
 PROJECT_BRIEF          = "Документация разработчика"
 PROJECT_LOGO           = 
@@ -62,7 +62,7 @@ WARN_LINE_FORMAT       = "at line $line of file $file"
 WARN_LOGFILE           = 
 
 # Configuration options related to the input files
-INPUT                  = 
+INPUT                  = Source
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          = *.cpp \
                          *.h \
@@ -122,7 +122,7 @@ INPUT_FILTER           =
 FILTER_PATTERNS        = 
 FILTER_SOURCE_FILES    = NO
 FILTER_SOURCE_PATTERNS = 
-USE_MDFILE_AS_MAINPAGE = 
+USE_MDFILE_AS_MAINPAGE = docs/developer/README.md
 
 # Configuration options related to source browsing
 SOURCE_BROWSER         = YES
